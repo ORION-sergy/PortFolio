@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-/* toggle icon bar */
+/* TOGGLE ICON BAR */
     let menuIcon = document.querySelector('#menu-icon');
     let navbar = document.querySelector('.navbar');
 
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
         menuIcon.classList.toggle('bx-x');
         navbar.classList.toggle('active');
     }    
-/* scroll section active links */
+/* SCROLL SECTION ACTIVE LINKS */
     let sections = document.querySelectorAll('section');
     let navLinks = document.querySelectorAll('header nav a');
 
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     };
 
-    /* sticky navbar */
+    /* STICKY NAVBAR */
 
     let header = document.querySelector('header');
 
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 
-    /* scrollreveal */
+    /* SCROLLREVEAL */
     ScrollReveal({
         //reset: true,
         distance: '80px',
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function(){
     ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
     ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-    /* typed js */
+    /* "TYPED JS" */
     const typed = new Typed('.multiple-text', {
         strings: ['Frontend Developer','Freelance &','TeamWork'],
         typeSpeed: 100,
