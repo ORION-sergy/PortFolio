@@ -26,7 +26,8 @@ html{
     display: none;
 }
 body{
-    background-color: var(--bg-color);
+    background-color: black;
+    /* background-color: var(--bg-color); */
     color: var(--text-color);
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -55,6 +56,9 @@ section{
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+}
+.logo span{
+    color: var(--main-color);
 }
 .navbar a{
     font-size: 1.8rem;
@@ -229,7 +233,6 @@ span{
 }
 .portfolio-box img{
     /* agregar el max-height en el @mediaquery corresp. */
-    /* max-height: 251px; */
     width: 100%;
     transition: .3s ease;
     border-radius: 2rem;
