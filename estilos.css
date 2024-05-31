@@ -177,6 +177,14 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.services{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
 .services h2{
     margin-bottom: 5rem;
 }
@@ -207,13 +215,15 @@ span{
 }
 .services-box h3{
     font-size: 2.6rem;
+    padding-top: 10px;
 }
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
 .portfolio{
-    background-color: var(--second-bg-color);
+    /* background-color: var(--second-bg-color); */
+    background-color: black;
 }
 .portfolio h2{
     margin-bottom: 4rem;
@@ -223,6 +233,7 @@ span{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    font-size: 1.3rem;
 }
 .portfolio-container .portfolio-box{
     display: flex;
@@ -238,6 +249,9 @@ span{
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
+}
+.portfolio-box p{
+    margin-left: 13px;
 }
 .portfolio-box:hover img{
     transform: scale(1.04);
