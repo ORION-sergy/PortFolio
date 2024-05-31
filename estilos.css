@@ -399,7 +399,6 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
     }
-
 /* @media(max-width: 768px) {
     #menu-icon {
         display: block;
@@ -501,5 +500,11 @@ span{
     }
     .portfolio-box .portfolio-layer{
         gap: 0;
+    }
+}
+
+@media (max-height: 695px) {
+    .portfolio-box img{
+        max-height: 151px;
     }
 }
