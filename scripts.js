@@ -93,4 +93,39 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(puntaje.goldenApple());
     console.log(puntaje.cactus());
     console.log(puntaje.actualPoint());
+
+    const expandTail = document.getElementById('expandTail');
+    const expandJs = document.getElementById('expandJs');
+    const expandGithub = document.getElementById('expandGithub');
+    botonTailwind.addEventListener("click",()=>{
+        event.preventDefault();
+        if (expandTail.style.display === 'none') {
+            expandTail.style.display = 'block';
+            botonTailwind.textContent = 'Show Less';
+        } else {
+            expandTail.style.display = 'none';
+            botonTailwind.textContent = 'Show More';
+        }
+    })
+    
+    botonJs.addEventListener("click",()=>{
+        event.preventDefault();
+        if (expandJs.style.display === 'none') {
+            expandJs.style.display = 'block';
+            botonJs.textContent = 'Show Less';
+        } else {
+            expandJs.style.display = 'none';
+            botonJs.textContent = 'Show More';
+        }
+    })
+    botonGithub.addEventListener("click",()=>{
+        event.preventDefault();
+        if (expandGithub.style.display === 'none') {
+            expandGithub.style.display = 'block';
+            botonGithub.textContent = 'Show Less';
+        } else {
+            expandGithub.style.display = 'none';
+            botonGithub.textContent = 'Show More';
+        }
+    })
 });
