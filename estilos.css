@@ -345,6 +345,10 @@ span{
 .footer-text p{
     font-size: 1.6rem;
 }
+footer-iconTop{
+    display: flex;
+    flex-direction: row;
+}
 .footer-iconTop a{
     display: inline-flex;
     justify-content: center;
@@ -484,16 +488,31 @@ span{
     .portfolio-box .portfolio-layer{
         gap: 0;
     }
+    .services{
+        padding-top: 12vh;
+    }
 }
 @media(max-width: 450px){
     html{
         font-size: 50%;
+    }
+    .services-container{
+        margin: 0 auto;
+        width: 95%;
     }
     .contact form .input-box input{
         width: 100%;
     }
     .portfolio-box .portfolio-layer{
         gap: 0;
+    }
+    .portfolio-container .portfolio-box img {
+        margin: 0 auto;
+        width: 85%;
+    }
+    .portfolio-container .portfolio-box p{
+        margin: 0 auto;
+        width: 80%;
     }
 }
 @media(max-width: 365px){
@@ -517,6 +536,14 @@ span{
     }
     .portfolio-box .portfolio-layer{
         gap: 0;
+    }
+    .portfolio-container .portfolio-box img {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .portfolio-container .portfolio-box p{
+        margin: 0 auto;
+        width: 80%;
     }
 }
 
