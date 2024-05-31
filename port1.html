@@ -1,48 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <script src="https://kit.fontawesome.com/b929cb1411.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Nav -->
     <header class="header">
-        <a href="" id="" class="logo">SRG.Developer</a>
+        <a href="" id="" class="logo"><span>SRG.</span>Developer</a>
         <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#services">My Skills</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contac</a>
         </nav>
     </header>
+    <!-- Home -->
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
-            <h1>Dave Becker</h1>
+            <h1>Sergio Ramos</h1>
             <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, facere? Vero inventore quo dolorem cupiditate?</p>
+            <p>Passionate about creating intuitive and visually appealing user experiences. With 2 years of experience in web development, I excel in HTML, CSS, TailwindCss, and JavaScript. I love working in teams and collaborating with designers and backend developers to build efficient and responsive web applications. I am always looking for new challenges that allow me to grow professionally and continue learning in this constantly evolving field.</p>
+            <!-- <p>Apasionado por crear experiencias de usuario intuitivas y visualmente atractivas. Con 2 años de experiencia en el desarrollo web, domino HTML, CSS, JavaScript. Me encanta trabajar en equipo y colaborar con diseñadores y desarrolladores backend para construir aplicaciones web eficientes y responsivas. Siempre estoy en busca de nuevos desafíos que me permitan crecer profesionalmente y seguir aprendiendo en este campo en constante evolución.</p> -->
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#" style="padding-top: 4px;"><i class='fa-brands fa-x-twitter'></i></a>
                 <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
             <a class="btn" href="">DownLoad CV</a>
         </div>
-
+        <!-- img -->
         <div class="home-img">
-            <img src="images/home.png" alt="">
+            <img src="images/profilePic.jpg" alt="">
         </div>
     </section>
-    <!--  -->
-    <section class="about" id="about">
+    <!-- ProfilePic -->
+    <!-- <section class="about" id="about">
         <div class="about-img">
-            <img src="images/about.png" alt="">
+            <img src="images/profilePic.jpg" alt="">
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
@@ -50,28 +52,39 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro explicabo saepe ducimus quos aut harum impedit eius quaerat, dolorem nemo molestiae reiciendis eveniet beatae voluptate dicta accusamus perferendis enim.</p>
             <a href="" class="btn">Read More</a>
         </div>
-    </section>
-    <!--  -->
+    </section> -->
+    <!-- Skills -->
     <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-
+        <h2 class="heading">My <span>Skills</span></h2>
         <div class="services-container">
+            <!-- Tailwind -->
             <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident blanditiis veritatis ea aliquid et ex repudiandae deserunt itaque optio? Aliquid nam quidem natus! Nulla vel autem expedita ipsum fugit.</p>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 24 24">
+                    <g fill="#00abf0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                        <g transform="translate(0,4)">
+                            <path d="M23.395,7.081c-0.488,-0.207 -1.053,-0.002 -1.29,0.472c-0.224,0.448 -0.523,0.723 -0.914,0.838c-0.612,0.183 -1.343,-0.052 -1.685,-0.253c-0.451,-0.265 -0.974,-0.667 -1.527,-1.092c-1.765,-1.358 -3.961,-3.046 -6.979,-3.046c-2.414,0 -3.654,1.239 -5.707,3.293c-0.391,0.391 -0.394,1.027 -0.003,1.417c0.38,0.382 0.99,0.394 1.382,0.03c0.01,-0.009 0.02,-0.019 0.03,-0.028c0.552,-0.426 4.03,-0.012 5.55,1.196c2.259,1.795 3.89,3.092 5.748,3.092c2.659,0 4.879,-1.741 5.94,-4.658c0.181,-0.498 -0.058,-1.051 -0.545,-1.261zM18.395,14.081c-0.488,-0.207 -1.053,-0.002 -1.29,0.472c-0.224,0.448 -0.523,0.723 -0.914,0.838c-0.612,0.18 -1.343,-0.052 -1.685,-0.253c-0.451,-0.265 -0.974,-0.667 -1.527,-1.092c-1.765,-1.358 -3.961,-3.046 -6.979,-3.046c-2.414,0 -3.654,1.239 -5.707,3.293c-0.391,0.391 -0.394,1.027 -0.003,1.417c0.38,0.382 0.991,0.395 1.383,0.03c0.01,-0.009 0.02,-0.019 0.03,-0.028c0.551,-0.426 4.031,-0.012 5.55,1.196c2.258,1.795 3.889,3.092 5.747,3.092c2.659,0 4.879,-1.741 5.94,-4.658c0.181,-0.498 -0.058,-1.051 -0.545,-1.261z"></path>
+                        </g>
+                    </g>
+                </svg>
+                <h3>Tailwind Css</h3>
+                <p>I have solid experience in using TailwindCSS to create modern and responsive interfaces. Tailwind allows me to quickly design styled components without the need for custom CSS, which accelerates development and ensures design consistency. I have used Tailwind in several projects to implement scalable and modular design systems, leveraging its utilities to adjust the design precisely and efficiently. My knowledge of this technology enables me to create web applications that not only look great but also perform optimally on different devices and screen sizes.</p>
+                <!-- <p>Tengo una sólida experiencia en TailwindCSS para crear interfaces modernas y responsivas. Tailwind me permite diseñar rápidamente componentes estilizados sin necesidad de CSS, lo que acelera el desarrollo y garantiza consistencia en el diseño. He utilizado Tailwind en varios proyectos para implementar sistemas de diseño escalables y modulares, aprovechando sus utilidades para ajustar el diseño de manera precisa y eficiente. Mi conocimiento en esta tecnología me permite crear aplicaciones web que no solo se ven bien, sino que también funcionan de manera óptima en diferentes dispositivos y tamaños de pantalla.</p> -->
                 <a href="#" class="btn">Read More</a>
             </div>
+            <!-- JavaScript -->
             <div class="services-box">
-                <i class="bx bxs-paint"></i>
-                <h3>Web Design</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum sequi voluptate provident distinctio, ea eos eaque veritatis, expedita consectetur beatae similique veniam tempore at. Unde necessitatibus illo repellendus quis.</p>
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>JavaScript is one of my main tools in frontend development. I have extensive experience working with this language to create interactive and dynamic web applications. I have developed and maintained multiple projects using both Vanilla JavaScript and modern frameworks and libraries such as React and Vue.js. My JavaScript skills include DOM manipulation, event handling, application state management, and integration with external APIs. Additionally, I am familiar with best practices and design patterns, which allow me to write clean, maintainable, and efficient code.</p>
+                <!-- <p>Es una de mis principales herramientas en el desarrollo frontend. Tengo una amplia experiencia trabajando con este lenguaje para crear aplicaciones web interactivas y dinámicas. He desarrollado y mantenido múltiples proyectos utilizando tanto Vanilla JavaScript como frameworks y librerías modernas como React y Vue.js. Mis habilidades en JavaScript incluyen la manipulación del DOM, el manejo de eventos, la gestión del estado de la aplicación y la integración con APIs externas. Además, estoy familiarizado con las mejores prácticas y patrones de diseño, lo que me permite escribir código limpio, mantenible y eficiente.</p> -->
                 <a href="#" class="btn">Read More</a>
             </div>
+            <!-- Github -->
             <div class="services-box">
-                <i class="bx bx-bar-chart-alt"></i>
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae dolorem facere amet fugit molestias, quam quibusdam? Illo asperiores aliquid quasi dolorem hic? Sit perspiciatis sint fugiat officia quisquam ex?</p>
+                <i class="fa-brands fa-github"></i>
+                <h3>Github</h3>
+                <p>GitHub is an essential platform in my daily workflow as a developer. I have experience in using Git for version control, which allows me to manage and track changes in code efficiently. I use GitHub to collaborate with other developers, reviewing and managing pull requests, and resolving conflicts effectively to improve code quality and accelerate the development process. My ability to use GitHub effectively ensures that the projects I work on are well-organized, collaborative, and always ready for deployment.</p>
+                <!-- <p>GitHub es una plataforma esencial en mi flujo de trabajo diario como desarrollador. Tengo experiencia en el uso de Git para el control de versiones, lo que me permite gestionar y rastrear cambios en el código de manera eficiente. Utilizo GitHub para colaborar con otros desarrolladores, revisando y gestionando pull requests, y resolviendo conflictos de manera efectiva para la mejora la calidad del código y acelerar el proceso de desarrollo. Mi capacidad para utilizar GitHub de manera efectiva asegura que los proyectos en los que trabajo sean bien organizados, colaborativos y estén siempre listos para su despliegue.</p> -->
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -82,20 +95,20 @@
         <div class="portfolio-container">
             <a href="https://thepathintoabysscom.netlify.app/" target="_blank">
                 <div class="portfolio-box">
-                    <img src="https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/664cbb41d79f93000860f2cd/screenshot_2024-05-21-15-18-52-0000.webp&fit=cover&h=500&w=800" alt="">
+                    <img src="images/imagesPath.png" alt="">
                     <p>PC Game in development</p>
                 </div>
             </a>
             <a href="#">
                 <div class="portfolio-box">
-                    <img src="images/portfolio2.jpg" alt="">
-                    <p>PC Game in development</p>
+                    <img src="images/cap2copy.png" alt="">
+                    <p>Provincial Police</p>
                 </div>
             </a>
             <a href="#" target="_blank">
                 <div class="portfolio-box">
-                    <img src="images/portfolio3.jpg" alt="">
-                    <p>PC Game in development</p>
+                    <img src="images/cap3.png" alt="">
+                    <p>Online Appointment System</p>
                 </div>
             </a>
             <a href="#" target="_blank">
@@ -118,7 +131,7 @@
             </a>
         </div>
     </section>
-    <!--  -->
+    <!-- Contac -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
         <form action="#">
@@ -134,6 +147,7 @@
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2024 by CodSRG | All Rights Reserved.</p>

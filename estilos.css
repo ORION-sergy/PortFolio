@@ -26,7 +26,8 @@ html{
     display: none;
 }
 body{
-    background-color: var(--bg-color);
+    background-color: black;
+    /* background-color: var(--bg-color); */
     color: var(--text-color);
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -55,6 +56,9 @@ section{
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+}
+.logo span{
+    color: var(--main-color);
 }
 .navbar a{
     font-size: 1.8rem;
@@ -173,6 +177,14 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.services{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
 .services h2{
     margin-bottom: 5rem;
 }
@@ -203,13 +215,15 @@ span{
 }
 .services-box h3{
     font-size: 2.6rem;
+    padding-top: 10px;
 }
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
 .portfolio{
-    background-color: var(--second-bg-color);
+    /* background-color: var(--second-bg-color); */
+    background-color: black;
 }
 .portfolio h2{
     margin-bottom: 4rem;
@@ -219,6 +233,7 @@ span{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    font-size: 1.3rem;
 }
 .portfolio-container .portfolio-box{
     display: flex;
@@ -229,12 +244,14 @@ span{
 }
 .portfolio-box img{
     /* agregar el max-height en el @mediaquery corresp. */
-    /* max-height: 251px; */
     width: 100%;
     transition: .3s ease;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
+}
+.portfolio-box p{
+    margin-left: 13px;
 }
 .portfolio-box:hover img{
     transform: scale(1.04);
@@ -399,7 +416,6 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
     }
-
 /* @media(max-width: 768px) {
     #menu-icon {
         display: block;
@@ -501,5 +517,11 @@ span{
     }
     .portfolio-box .portfolio-layer{
         gap: 0;
+    }
+}
+
+@media (max-height: 695px) {
+    .portfolio-box img{
+        max-height: 151px;
     }
 }
