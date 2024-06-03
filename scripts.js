@@ -58,12 +58,28 @@ document.addEventListener("DOMContentLoaded", function(){
 
     /* "TYPED JS" */
     const typed = new Typed('.multiple-text', {
-        strings: ['Frontend Developer','Freelancer ...','& TeamWork'],
+        strings: ['Frontend Developer','Freelancer ...','& TeamWork Dev'],
         typeSpeed: 100,
         backSpeed: 150,
         backDelay: 2000,
         loop: true
     })
+
+            /* --CAMBIO DE IDIOMA-- */
+
+    /* RESCATO CHECKBOX EN VARIABLE CHECK */
+    var check = document.querySelector(".check");
+    /* A ESA VAR LE AGREGO EVENTO CLICK LLAMANDO A FUNCION IDIOMA */
+    check.addEventListener('click',idioma);
+    /* FUNCION CON CONDICIONAL CAMBIA DE POSICION SI CHECKBOX ESTA CHEKEADO = TRUE O NO = FALSE */
+    function idioma(){
+        let id = check.checked;
+        if(id == true){
+            location.href = "Es/indexEs.html";
+        }else{
+            location.href = "../index.html";
+        }
+    }
 
 /* ---- */
     let puntaje = (
