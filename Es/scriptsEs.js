@@ -74,6 +74,15 @@ document.addEventListener("DOMContentLoaded", function(){
                 location.href = "../index.html";
             }
         }
+        /* CAMBIO DE COLOR EN CUANTO AL IDIOMA */
+        const sp = document.getElementById('sp');
+        var lang = document.documentElement.lang;
+
+        // Verificar si el valor es "en" (inglés)
+        if (lang === "es") {
+            // El idioma es inglés
+            sp.style.color = '#00abf0';
+        }
         /* EXPANSION DE TARJETAS */
         const expandTail = document.getElementById('expandTail');
         const expandJs = document.getElementById('expandJs');

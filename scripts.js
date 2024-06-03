@@ -80,6 +80,18 @@ document.addEventListener("DOMContentLoaded", function(){
             location.href = "../index.html";
         }
     }
+    const sp = document.getElementById('sp');
+    const en = document.getElementById('en');
+    var lang = document.documentElement.lang;
+
+    // Verificar si el valor es "en" (inglés)
+    if (lang === "en") {
+        // El idioma es inglés
+        en.style.color = '#00abf0';
+    } else {
+        // El idioma no es inglés
+        document.write("<p>This page is not in English.</p>");
+    }
 
 /* ---- */
     let puntaje = (
