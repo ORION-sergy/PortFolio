@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
             });
         };
     
-        /* STICKY NAVBAR */
+    /* STICKY NAVBAR */
     
         let header = document.querySelector('header');
     
@@ -117,5 +117,24 @@ document.addEventListener("DOMContentLoaded", function(){
                 botonGithub.textContent = 'Show More';
             }
         })
+    /*  */
+    /* const $form = document.querySelector('#form');
+
+    $form.addEventListener('submit', handleSubmit);
+    
+    function handleSubmit(event) {
+      event.preventDefault();
+      const form = new FormData(this);
+    
+      const nombre = form.get('nombre');
+      const email = form.get('email');
+      const asunto = form.get('asunto');
+      const numero = form.get('numero');
+      const mensaje = encodeURIComponent(form.get('message'));
+    
+      const enlaceMailto = `mailto:ramos_sergio20@hotmail.com?subject=${asunto} - ${nombre} - ${email} - ${numero}&body=${mensaje}`;
+      window.location.href = enlaceMailto;
+    } */
+    
     });
     

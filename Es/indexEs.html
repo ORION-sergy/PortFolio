@@ -135,17 +135,18 @@
     <!-- Contac -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
+        <form  action="https://formsubmit.co/ramos_sergio20@oigresrol20@gmail.com" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Email">
+                <input name="nombre" type="text" placeholder="Nombre" required>
+                <input name="email" type="email" placeholder="Email" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Numero de contacto">
-                <input type="text" placeholder="Asunto">
+                <input name="numero" type="number" placeholder="Numero de contacto">
+                <input name="asunto" type="text" placeholder="Asunto" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
             <input type="submit" value="Enviar mensaje" class="btn">
+            <!-- <a style="opacity: 0; position: absolute;" href="mailto:oigresrol20@gmail.com"id="tru">Mail</a> -->
         </form>
     </section>
     <!-- Footer -->
